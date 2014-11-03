@@ -10,9 +10,12 @@
 
 @implementation AppDelegate
 
+
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    self.difficultyLevel=1;
+    self.demoMode = NO;
     return YES;
 }
 							

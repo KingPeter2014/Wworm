@@ -21,6 +21,13 @@
 		2B1CF72B19FFA7320095D57C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B1CF70D19FFA7320095D57C /* UIKit.framework */; };
 		2B1CF73319FFA7320095D57C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2B1CF73119FFA7320095D57C /* InfoPlist.strings */; };
 		2B1CF73519FFA7320095D57C /* WwormTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B1CF73419FFA7320095D57C /* WwormTests.m */; };
+		2B1CF74319FFAB930095D57C /* WiggleBoard.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B1CF74219FFAB930095D57C /* WiggleBoard.m */; };
+		2B1CF74519FFAC910095D57C /* emptycell.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B1CF74419FFAC910095D57C /* emptycell.png */; };
+		2B1CF74719FFAC9A0095D57C /* shroomcell.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B1CF74619FFAC9A0095D57C /* shroomcell.png */; };
+		2B1CF74919FFACA20095D57C /* snakecell.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B1CF74819FFACA20095D57C /* snakecell.png */; };
+		2B1CF74B19FFACA90095D57C /* wormface.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B1CF74A19FFACA90095D57C /* wormface.png */; };
+		2B1CF74D19FFACD30095D57C /* wormholecell.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B1CF74C19FFACD30095D57C /* wormholecell.png */; };
+		2BA8CD5A1A02BC5000D99F9F /* WormHoleModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BA8CD591A02BC5000D99F9F /* WormHoleModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +60,15 @@
 		2B1CF73019FFA7320095D57C /* WwormTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WwormTests-Info.plist"; sourceTree = "<group>"; };
 		2B1CF73219FFA7320095D57C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		2B1CF73419FFA7320095D57C /* WwormTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WwormTests.m; sourceTree = "<group>"; };
+		2B1CF74119FFAB930095D57C /* WiggleBoard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WiggleBoard.h; sourceTree = "<group>"; };
+		2B1CF74219FFAB930095D57C /* WiggleBoard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WiggleBoard.m; sourceTree = "<group>"; };
+		2B1CF74419FFAC910095D57C /* emptycell.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = emptycell.png; sourceTree = "<group>"; };
+		2B1CF74619FFAC9A0095D57C /* shroomcell.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shroomcell.png; sourceTree = "<group>"; };
+		2B1CF74819FFACA20095D57C /* snakecell.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = snakecell.png; sourceTree = "<group>"; };
+		2B1CF74A19FFACA90095D57C /* wormface.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wormface.png; sourceTree = "<group>"; };
+		2B1CF74C19FFACD30095D57C /* wormholecell.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wormholecell.png; sourceTree = "<group>"; };
+		2BA8CD581A02BC5000D99F9F /* WormHoleModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WormHoleModel.h; sourceTree = "<group>"; };
+		2BA8CD591A02BC5000D99F9F /* WormHoleModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WormHoleModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,7 +134,11 @@
 				2B1CF71E19FFA7320095D57C /* ViewController.h */,
 				2B1CF71F19FFA7320095D57C /* ViewController.m */,
 				2B1CF72119FFA7320095D57C /* Images.xcassets */,
+				2B1CF74119FFAB930095D57C /* WiggleBoard.h */,
+				2B1CF74219FFAB930095D57C /* WiggleBoard.m */,
 				2B1CF71019FFA7320095D57C /* Supporting Files */,
+				2BA8CD581A02BC5000D99F9F /* WormHoleModel.h */,
+				2BA8CD591A02BC5000D99F9F /* WormHoleModel.m */,
 			);
 			path = Wworm;
 			sourceTree = "<group>";
@@ -126,6 +146,11 @@
 		2B1CF71019FFA7320095D57C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				2B1CF74C19FFACD30095D57C /* wormholecell.png */,
+				2B1CF74819FFACA20095D57C /* snakecell.png */,
+				2B1CF74619FFAC9A0095D57C /* shroomcell.png */,
+				2B1CF74A19FFACA90095D57C /* wormface.png */,
+				2B1CF74419FFAC910095D57C /* emptycell.png */,
 				2B1CF71119FFA7320095D57C /* Wworm-Info.plist */,
 				2B1CF71219FFA7320095D57C /* InfoPlist.strings */,
 				2B1CF71519FFA7320095D57C /* main.m */,
@@ -228,9 +253,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B1CF74D19FFACD30095D57C /* wormholecell.png in Resources */,
+				2B1CF74B19FFACA90095D57C /* wormface.png in Resources */,
+				2B1CF74919FFACA20095D57C /* snakecell.png in Resources */,
 				2B1CF72219FFA7320095D57C /* Images.xcassets in Resources */,
 				2B1CF71419FFA7320095D57C /* InfoPlist.strings in Resources */,
+				2B1CF74719FFAC9A0095D57C /* shroomcell.png in Resources */,
 				2B1CF71D19FFA7320095D57C /* Main.storyboard in Resources */,
+				2B1CF74519FFAC910095D57C /* emptycell.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,6 +281,8 @@
 			files = (
 				2B1CF72019FFA7320095D57C /* ViewController.m in Sources */,
 				2B1CF71A19FFA7320095D57C /* AppDelegate.m in Sources */,
+				2B1CF74319FFAB930095D57C /* WiggleBoard.m in Sources */,
+				2BA8CD5A1A02BC5000D99F9F /* WormHoleModel.m in Sources */,
 				2B1CF71619FFA7320095D57C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -456,6 +488,7 @@
 				2B1CF73A19FFA7320095D57C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2B1CF73B19FFA7320095D57C /* Build configuration list for PBXNativeTarget "WwormTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +497,7 @@
 				2B1CF73D19FFA7320095D57C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

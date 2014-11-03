@@ -7,7 +7,18 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "WormHoleModel.h"
+#import "AppDelegate.h"
 
-@interface ViewController : UIViewController
-
+@interface ViewController : UIViewController{
+    
+    IBOutlet UIButton* exitButton;
+    IBOutlet UIButton* easyButton;
+    IBOutlet UIButton* mediumButton;
+    IBOutlet UIButton* hardButton;
+    WormHoleModel *wModel;
+    AppDelegate *delegateShareData;
+}
+-(IBAction)exitApp;
+-(IBAction)setDifficulty:(UIButton*)sender;
 @end
